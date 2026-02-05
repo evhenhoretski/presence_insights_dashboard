@@ -80,7 +80,7 @@ All metrics are implemented as **DAX measures**, including Presence %, WFH %, an
 
 ## Dashboard Preview
 
-![Presence Insights Dashboard](screenshots/dashboard.png)
+![Presence Insights Dashboard](/screenshot.png)
 
 ---
 
