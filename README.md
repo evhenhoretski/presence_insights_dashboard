@@ -1,91 +1,63 @@
-# Presence Insights Dashboard (Power BI)
+# Employee Attendance Analysis to Identify Productivity Loss Patterns
 
-This Power BI dashboard analyzes employee attendance and presence patterns, including on-site work, work-from-home, and different leave types.  
-The report provides a clear overview for basic workforce monitoring and trend analysis.
-
----
-
-## Dashboard Overview
-
-The dashboard highlights:
-
-- **Presence %** – on-site attendance
-- **WFH %** – work-from-home rate
-- **SL %** – sick leave rate
-
-KPIs are shown at the top, with trend analysis and breakdowns by employee and day of week.
+## Overview
+This project analyzes employee attendance data to detect patterns in remote work, sick leave, and overall presence.  
+The goal is to identify factors that may impact productivity and workforce efficiency.
 
 ---
 
-## Key Insights Covered
+## Problem
+Companies often lack visibility into:
+- Absenteeism trends
+- Sick leave patterns
+- Work-from-home distribution
 
-- Presence, WFH, and SL trends over time
-- Weekly attendance patterns
-- Comparison by employee
-- Distribution by day of week
-
----
-
-## Interactivity
-
-Interactive filters include:
-
-- Date (month / period)
-- Employee
-- Day of week
-
-All visuals update dynamically based on selections.
+This leads to reduced productivity and poor workforce planning.
 
 ---
 
-## Attendance Key
-
-| Code | Meaning |
-|-----|--------|
-| P | Present |
-| PL | Paid Leave |
-| SL | Sick Leave |
-| HPL | Half Day Paid Leave |
-| HSL | Half Day Sick Leave |
-| WFH | Work From Home |
-| HWFH | Half Work From Home |
-| FFL | Floating Festival Leave |
-| HFFL | Half Day Floating Festival Leave |
-| BL | Birthday Leave |
-| LWP | Leave Without Pay |
-| HLWP | Half Day Leave Without Pay |
-| BRL | Bereavement Leave |
-| HBRL | Half Day Bereavement Leave |
-| WO | Weekly Off |
-| HO | Holiday Off |
-| ML | Menstrual Leave |
-| HML | Half Day Menstrual Leave |
+## Data
+- Employee attendance records
+- Work-from-home vs office presence
+- Sick leave data over time
 
 ---
 
-## Data Model
+## Key Insights
 
-- **Fact table**: daily attendance records  
-- **Dimensions**: employee, date  
-
-Star schema is used to support filtering and time-based analysis.
-
----
-
-## Calculations
-
-All metrics are implemented as **DAX measures**, including Presence %, WFH %, and SL %.
+- Sick leave spikes at specific periods, potentially indicating burnout or workload imbalance  
+- Work-from-home distribution is uneven across teams, suggesting inconsistent policies  
+- Certain time periods show a drop in attendance, impacting overall productivity  
+- A small group of employees accounts for a disproportionate share of absences  
+- Attendance patterns vary significantly by day of the week  
 
 ---
 
-## Dashboard Preview
+## Business Value
 
-![Presence Insights Dashboard](/screenshot.png)
+This analysis helps:
+- Identify productivity loss patterns  
+- Improve workforce planning  
+- Detect potential burnout risks  
+- Optimize hybrid work policies  
 
 ---
 
 ## Tools Used
+- Power BI (Dashboard & Visualization)
+- Data Analysis
+- KPI Tracking
 
-- Power BI Desktop
-- DAX
-- Power Query
+---
+
+## Dashboard Highlights
+The dashboard provides:
+- Attendance trends over time  
+- Sick leave analysis  
+- Work-from-home vs office comparison  
+- Key performance indicators for workforce monitoring  
+
+---
+
+## Conclusion
+The project demonstrates how attendance data can be transformed into actionable insights to support better workforce management decisions.
